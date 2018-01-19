@@ -1,0 +1,5 @@
+services:
+    kryptopus_terminal_interface_body_binance_account:
+        class: domain/body/BinanceAccountBody
+        tags:
+            - { name: kryptopus.terminal_interface.body, body_id: binance_account }
